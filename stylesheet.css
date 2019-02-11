@@ -1,0 +1,238 @@
+/*läger till bakgrunden till <body> taggen*/
+body {
+	background-image: url("Images/bakgrund23.png");
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+/*Container*/
+#container {
+	text-align: center;
+	position: relative;
+	width: 70%;
+	margin: auto;
+}
+/*Allt ska vara i wholepage diven*/
+#wholepage {
+	box-shadow: 5px 5px 3px dimgray;
+	border-radius: 3px;
+	background-color: black;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+}
+/*Håller fast Runez logga*/
+#logotyp {
+	background-color: rgba(22, 22, 22, 0.85);
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+/*Runez logga*/
+.logoimage {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 200px;
+	height: 100px;
+	transition-duration: 0.6s;
+}
+.logoimage:hover {
+	filter: opacity(0.31) brightness(200%) hue-rotate(270deg);
+	-webkit-filter: opacity(0.31) brightness(200%) hue-rotate(270deg);
+}
+/*Knapparna*/
+.button {
+	width: 100%;
+	height: 100%;
+	max-width: 20px;
+	max-height: 20px;
+	font-size: auto;
+	transition-duration: 0.6s;
+}
+.button:hover {
+	filter: opacity(0.31) brightness(200%) hue-rotate(270deg);
+	-webkit-filter: opacity(0.31) brightness(200%) hue-rotate(270deg);
+}
+/*Bilden på runez medlemmar*/
+#bandimage {
+	border-radius: 5%;
+	width: 50%;
+	height: 50%;
+}
+/*Om runez*/
+#about {
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+/*Infobar håller fast olika saker till ett fast mått*/
+#infobar {
+	width: 100%;
+	height: 80px;
+	margin-bottom: 10px;
+}
+/*Spotify spelaren är i #infobar och den har alla regler*/
+#spotifyI {
+	box-shadow: 2px 2px 5px #570835;
+}
+/*Facebook loggan*/
+#flogo {
+	margin-right: 5px;
+	height: 80px;
+	transition-duration: 1.2s;
+}
+#flogo:hover {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+#mlogo {
+	margin-right: 5px;
+	width: 80px;
+	height: 80px;
+	transition-duration: 1.2s;
+}
+#mlogo:hover {
+	-ms-transform: rotate(10deg); /* IE 9 */
+	-webkit-transform: rotate(10deg); /* Safari 3-8 */
+	transform: rotate(20deg);
+	filter: invert(50%);
+	-webkit-filter: invert(50%);
+}
+.imgR {
+	border-radius: 150px;
+	float: right;
+	margin-right: 5px;
+	transition-duration 5s;
+}
+.imgL {
+	border-radius: 150px;
+	float: left;
+	margin-left: 5px;
+	transition-duration 5s;
+}
+/*Container för alla "profiler"*/
+.profilContainer {
+	display: inline-block;
+	border-bottom: 2px ridge dimgray;
+	height: 150px;
+	width: 75%;
+	margin-bottom: 5px;
+}
+/*Profilcontainer höger*/
+.profilimgcontainerR {
+	text-align: right;
+}
+/*Profilcontainer vänster*/
+.profilimgcontainerL {
+	text-align: left;
+}
+/*Profiltext vänster*/
+.profilTextL {
+	text-align: left;
+}
+/*Profiltext höger*/
+.profilTextR {
+	text-align: right;
+}
+/*För att kunna stänga av all beskrivnings text*/
+.profiltextdiv {
+}
+#kontaktcontainer {
+	display: inline-block;
+	text-align: left;
+	height: 500px;
+	width: 400px;
+	transition-duration: 5s;
+}
+#containerkontakt {
+	float: left;
+}
+#kontaktimgcontainer {
+	
+}
+#kontaktimg {
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 200px;
+	height: 314px;
+}
+#kontakttext {
+	margin-left: 5px;
+}
+#h3kontakt {
+	margin-bottom: 2px;
+}
+.center {
+	text-align: center;
+	width: 100%;
+}
+/*Alla <a> taggar har ingen dekoration på sig (understräck) och text färgen är inherit*/
+a {
+	text-decoration: none;
+	color: inherit;
+}
+/*Alla rubriker har en margin som är 0*/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+/*Alla <p> taggar går mot vänster sida*/
+p {
+	text-align: left;
+}
+/* On screens that are 1000px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+	/*Gör så att när sidan är mindre är 1000px bred att sidan går hela vägen till höger och vänster*/
+	#wholepage {
+		width: 100%;
+	}
+	/*Container*/
+	#container {
+		width: 100%;
+	}
+	/*Infobar håller fast olika saker till ett fast mått*/
+	#infobar {
+		width: 100%;
+		height: 100%;
+		margin-bottom: 10px;
+	}
+	/*Spotify spelaren är i #infobar och den har alla regler*/
+	#spotifyI {
+		box-shadow: 0px 0px black;
+	}
+	/*Om runez*/
+	#about {
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 5px;
+		padding-bottom: 10px;
+		text-align: left;
+	}
+	/*Bilden på runez medlemmar*/
+	#bandimage {
+		width: 100%;
+		height: 100%;
+	}
+	/*Container för alla "profiler"*/
+	.profilContainer {
+		display: inline-block;
+		height: 150px;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.profiltextdiv {
+		display: none;
+	}
+}
+@media screen and (max-width: 510px) {
+	#containerkontakt {
+		float: none;
+	}
+	#kontakttext {
+		display: block;
+		width: 100%;
+	}
+}
