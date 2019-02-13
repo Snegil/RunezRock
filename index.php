@@ -48,14 +48,17 @@
 
 									<!-- Början av footer:n -->
 									<div id="footer">
-										<div id="footertext">
-											Sidan utvecklad av: 
-											<a id="footerDev" href="mailto:144wallfin@gmail.com">
-												AW
-											</a>
-											<a href="https://github.com/Snegil/RunezRock" target="_blank">
-												<img id="github" src="Images/GithubMarkLight32.png">
-											</a>
+										&copy; RunezRock
+										<div id="footercontainer">
+											<span id="footertext">
+												Sidan utvecklad av: 
+												<a id="footerDev" href="mailto:144wallfin@gmail.com">
+													AW
+												</a>
+												<a href="https://github.com/Snegil/RunezRock" target="_blank">
+													<img id="github" src="Images/GitHub-Mark-32px.png">
+												</a>
+												
 										</div>
 									</div>
 

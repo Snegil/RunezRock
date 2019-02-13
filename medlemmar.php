@@ -70,27 +70,12 @@
 												</div>
 											</div>
 											
-											<div class="profilContainer">			
+												<div class="profilContainer">			
 												<div class="profilimgcontainerL">
 													<span class="imgL">
-													<img class="shake-slow" src="Images/Profilbild/PelleEDIT.jpg" width="150px" height="150px">
-													</span>
-													<span class="profilTextL">
-														<h3>Pär Wallin</h3>
-														<span class="profiltextdiv">
-														Gitarr <br />
-														Text text text text text lorem lipsum blablabla
-														</span>
-													</span>
-												</div>
-											</div>
-											
-											<div class="profilContainer">			
-												<div class="profilimgcontainerR">
-													<span class="imgR">
 													<img class="shake-slow" src="Images/Profilbild/GoranEDIT.jpg" width="150px" height="150px">
 													</span>
-													<span class="profilTextR">
+													<span class="profilTextL">
 														<h3>Göran Lidh</h3>
 														<span class="profiltextdiv">
 														Trummor <br />
@@ -100,6 +85,21 @@
 												</div>
 											</div>
 											
+											<div class="profilContainer">			
+												<div class="profilimgcontainerR">
+													<span class="imgR">
+													<img class="shake-slow" src="Images/Profilbild/PelleEDIT.jpg" width="150px" height="150px">
+													</span>
+													<span class="profilTextR">
+														<h3>Pär Wallin</h3>
+														<span class="profiltextdiv">
+														Gitarr <br />
+														Text text text text text lorem lipsum blablabla
+														</span>
+													</span>
+												</div>
+											</div>
+										
 											<div class="profilContainer">			
 												<div class="profilimgcontainerL">
 													<span class="imgL">
