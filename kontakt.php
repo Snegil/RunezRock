@@ -41,7 +41,7 @@
 											<div id="containerkontakt"
 												<div id="kontaktimgcontainer">
 													<a href="https://m.me/109810822368941?fbclid=IwAR3281zfYwgEZI21C7eAMUzB9eoPDa1amhekHLjfJVa8fXoKnqFwm71Jp7A" target="_blank">
-														<img id="mlogo" src="Images/mlogo.png">
+														<img id="mlogo" alt="Kontakt" src="Images/mlogo.png">
 													</a>
 												</div>
 												<span id="kontakttext"> 
