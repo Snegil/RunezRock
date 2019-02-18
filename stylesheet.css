@@ -153,6 +153,7 @@ body {
 }
 /*För att kunna stänga av all beskrivnings text*/
 .profiltextdiv {
+	font-family: Arial, Helvetica, sans-serif;
 }
 #kontaktcontainer {
 	display: inline-block;

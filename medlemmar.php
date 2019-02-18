@@ -48,9 +48,11 @@
 													</span>
 													<span class="profilTextL">
 														<h3>Per Thilly</h3>
-														<span class="profiltextdiv">
-														<span class="instrument">Sång</span> <br />
-														Sångaren med det breda registret, från låga C till skithöga A.
+														<span class="profiltextdiv1">
+															<span class="instrument">Sång</span> <br />
+																<span class="profiltextdiv">
+																Sångaren med det breda registret, från låga C till skithöga A.
+															</span>
 														</span>
 													</span>
 												</div>
@@ -63,24 +65,28 @@
 													</span>
 													<span class="profilTextR">
 														<h3>Sonny Olausson</h3>
-														<span class="profiltextdiv">
-														<span class="instrument">Gitarr</span> <br />
-														Den bäste kompgittaristen som emellanåt även drar iväg ett solo.
+														<span class="profiltextdiv1">
+															<span class="instrument">Gitarr</span> <br />
+																<span class="profiltextdiv">
+																Den bäste kompgittaristen som emellanåt även drar iväg ett solo.
+															</span>
 														</span>
 													</span>
 												</div>
 											</div>
 											
-												<div class="profilContainer">			
+											<div class="profilContainer">			
 												<div class="profilimgcontainerL">
 													<span class="imgL">
 													<img class="shake-slow" src="Images/Profilbild/GoranEDIT.jpg" width="150px" height="150px">
 													</span>
 													<span class="profilTextL">
 														<h3>Göran Lidh</h3>
-														<span class="profiltextdiv">
-														<span class="instrument">Trummor</span> <br />
-														Otroligt taktfast trummis med full koll på paradiddlarna.
+														<span class="profiltextdiv1">
+																<span class="instrument">Trummor</span> <br />
+															<span class="profiltextdiv">
+																Otroligt taktfast trummis med full koll på paradiddlarna.
+															</span>
 														</span>
 													</span>
 												</div>
@@ -93,9 +99,11 @@
 													</span>
 													<span class="profilTextR">
 														<h3>Pär Wallin</h3>
-														<span class="profiltextdiv">
-														<span class="instrument">Gitarr</span> <br />
-														Sologitarrist som även han drar ett solo emellanåt
+														<span class="profiltextdiv1">
+															<span class="instrument">Gitarr</span> <br />
+																<span class="profiltextdiv">
+																Sologitarrist som även han drar ett solo emellanåt
+															</span>
 														</span>
 													</span>
 												</div>
@@ -108,9 +116,11 @@
 													</span>
 													<span class="profilTextL">
 														<h3>Kenneth "Tjabbe" Carlsson</h3>
-														<span class="profiltextdiv">
-														<span class="instrument">Keyboards</span> <br />
-														Eminent pianist med en otrolig kunskap om ackord.
+														<span class="profiltextdiv1">
+															<span class="instrument">Keyboards</span> <br />
+																<span class="profiltextdiv">
+																Eminent pianist med en otrolig kunskap om ackord.
+															</span>
 														</span>
 													</span>
 												</div>
@@ -123,9 +133,11 @@
 													</span>
 													<span class="profilTextR">
 														<h3>Rasmus Thilly</h3>
-														<span class="profiltextdiv">
-														<span class="instrument">Bas</span> <br />
-														Den bäste basisten som har den bäste sångaren till far.
+														<span class="profiltextdiv1">
+															<span class="instrument">Bas</span> <br />
+																<span class="profiltextdiv>
+																Den bäste basisten som har den bäste sångaren till far.
+															</span>
 														</span>
 													</span>
 												</div>
