@@ -9,6 +9,7 @@
 		</title>
 		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
 		<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -48,8 +49,8 @@
 													<span class="profilTextL">
 														<h3>Per Thilly</h3>
 														<span class="profiltextdiv">
-														Sång <br />
-														Text text text text text lorem lipsum blablabla
+														<span class="instrument">Sång</span> <br />
+														Sångaren med det breda registret, från låga C till skithöga A.
 														</span>
 													</span>
 												</div>
@@ -63,8 +64,8 @@
 													<span class="profilTextR">
 														<h3>Sonny Olausson</h3>
 														<span class="profiltextdiv">
-														Gitarr <br />
-														Text text text text text lorem lipsum blablabla
+														<span class="instrument">Gitarr</span> <br />
+														Den bäste kompgittaristen som emellanåt även drar iväg ett solo.
 														</span>
 													</span>
 												</div>
@@ -78,8 +79,8 @@
 													<span class="profilTextL">
 														<h3>Göran Lidh</h3>
 														<span class="profiltextdiv">
-														Trummor <br />
-														Text text text text text lorem lipsum blablabla
+														<span class="instrument">Trummor</span> <br />
+														Otroligt taktfast trummis med full koll på paradiddlarna.
 														</span>
 													</span>
 												</div>
@@ -93,8 +94,8 @@
 													<span class="profilTextR">
 														<h3>Pär Wallin</h3>
 														<span class="profiltextdiv">
-														Gitarr <br />
-														Text text text text text lorem lipsum blablabla
+														<span class="instrument">Gitarr</span> <br />
+														Sologitarrist som även han drar ett solo emellanåt
 														</span>
 													</span>
 												</div>
@@ -108,8 +109,8 @@
 													<span class="profilTextL">
 														<h3>Kenneth "Tjabbe" Carlsson</h3>
 														<span class="profiltextdiv">
-														Keyboards <br />
-														Text text text text text lorem lipsum blablabla
+														<span class="instrument">Keyboards</span> <br />
+														Eminent pianist med en otrolig kunskap om ackord.
 														</span>
 													</span>
 												</div>
@@ -123,8 +124,8 @@
 													<span class="profilTextR">
 														<h3>Rasmus Thilly</h3>
 														<span class="profiltextdiv">
-														Bas <br />
-														Text text text text text lorem lipsum blablabla
+														<span class="instrument">Bas</span> <br />
+														Den bäste basisten som har den bäste sångaren till far.
 														</span>
 													</span>
 												</div>

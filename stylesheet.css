@@ -77,11 +77,21 @@ body {
 #spotifyI {
 	box-shadow: 2px 2px 5px #570835;
 }
+#spotifyIcon {
+	display: none;
+	width: 80px;
+	height: 80px;
+	transition-duration: 0.5s;
+}
+#spotifyIcon:hover {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
 /*Facebook loggan*/
 #flogo {
 	margin-right: 5px;
 	height: 80px;
-	transition-duration: 1.2s;
+	transition-duration: 0.5s;
 }
 #flogo:hover {
 	filter: invert(100%);
@@ -209,6 +219,11 @@ body {
 	filter: invert(100%);
 	-webkit-filter: invert(100%);
 }
+.instrument {
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 1px dimgray;
+	/*font-weight: bold;*/
+}
 /*Alla <a> taggar har ingen dekoration på sig (understräck) och text färgen är inherit*/
 a {
 	text-decoration: none;
@@ -265,10 +280,13 @@ p {
 	#spotifyI {
 		display: none;
 	}
+	#spotifyIcon {
+		display: inline-block;
+	}
 }
 /* On screens that are 1024px wide or less*/
 @media screen and (max-width: 1024px) {
-	/*Gör så att när sidan är mindre är 1000px bred att sidan går hela vägen till höger och vänster*/
+	/*Gör så att när sidan är mindre är 1024px bred att sidan går hela vägen till höger och vänster*/
 	#wholepage {
 		width: 100%;
 	}
