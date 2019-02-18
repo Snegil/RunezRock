@@ -40,13 +40,17 @@
 										<div id="kontaktcontainer">
 											<div id="containerkontakt"
 												<div id="kontaktimgcontainer">
-													<img id="kontaktimg" src="Images/Profilbild/PelleEDIT2.jpg">
-												</div>
-												<span id="kontakttext"> 
-													<h3 id="h3kontakt">Pär Wallin</h3>
 													<a href="https://m.me/109810822368941?fbclid=IwAR3281zfYwgEZI21C7eAMUzB9eoPDa1amhekHLjfJVa8fXoKnqFwm71Jp7A" target="_blank">
 														<img id="mlogo" src="Images/mlogo.png">
 													</a>
+												</div>
+												<span id="kontakttext"> 
+													<h3 id="h3kontakt">
+														Pär Wallin <br />
+														Kenneth Carlsson <br />
+														Rasmus Thilly
+													</h3>
+													
 												</span>
 											 </div>
 										</div>

@@ -146,12 +146,17 @@ body {
 .profilTextR {
 	text-align: right;
 }
+.instrument {
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 1px dimgray;
+	/*font-weight: bold;*/
+}
 /*För att kunna stänga av all beskrivnings text*/
 .profiltextdiv {
 }
 #kontaktcontainer {
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	height: 100%;
 	width: 100%;
 	max-width: 300px;
@@ -174,7 +179,7 @@ body {
 	margin-left: 5px;
 }
 #h3kontakt {
-	margin-bottom: 2px;
+	margin-bottom: 5px;
 }
 .center {
 	text-align: center;
@@ -218,11 +223,6 @@ body {
 #github:hover {
 	filter: invert(100%);
 	-webkit-filter: invert(100%);
-}
-.instrument {
-	font-family: 'Lobster', cursive;
-	text-shadow: 2px 1px dimgray;
-	/*font-weight: bold;*/
 }
 /*Alla <a> taggar har ingen dekoration på sig (understräck) och text färgen är inherit*/
 a {
