@@ -133,9 +133,9 @@
 													</span>
 													<span class="profilTextR">
 														<h3>Rasmus Thilly</h3>
-														<span class="profiltextdiv1">
+															<span class="profiltextdiv1">
 															<span class="instrument">Bas</span> <br />
-																<span class="profiltextdiv>
+																<span class="profiltextdiv">
 																Den bäste basisten som har den bäste sångaren till far.
 															</span>
 														</span>
