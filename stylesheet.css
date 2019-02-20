@@ -225,6 +225,10 @@ body {
 	filter: invert(100%);
 	-webkit-filter: invert(100%);
 }
+/*För rundade kanter i medlemmar bilderna*/
+.rounded {
+	border-radius: 80px;
+}
 /*Alla <a> taggar har ingen dekoration på sig (understräck) och text färgen är inherit*/
 a {
 	text-decoration: none;

@@ -44,7 +44,7 @@
 											<div class="profilContainer">			
 												<div class="profilimgcontainerL">
 													<span class="imgL">
-													<img class="shake-slow" src="Images/Profilbild/PerTEDIT.jpg" width="150px" height="150px">
+													<img class="shake-slow rounded" src="Images/Profilbild/PerTEDIT.jpg" width="150px" height="150px">
 													</span>
 													<span class="profilTextL">
 														<h3>Per Thilly</h3>
@@ -61,7 +61,7 @@
 											<div class="profilContainer">			
 												<div class="profilimgcontainerR">
 													<span class="imgR">
-													<img class="shake-slow" src="Images/Profilbild/SonnyEDIT.jpg" width="150px" height="150px">
+													<img class="shake-slow rounded" src="Images/Profilbild/SonnyEDIT.jpg" width="150px" height="150px">
 													</span>
 													<span class="profilTextR">
 														<h3>Sonny Olausson</h3>
@@ -78,7 +78,7 @@
 											<div class="profilContainer">			
 												<div class="profilimgcontainerL">
 													<span class="imgL">
-													<img class="shake-slow" src="Images/Profilbild/GoranEDIT.jpg" width="150px" height="150px">
+													<img class="shake-slow rounded" src="Images/Profilbild/GoranEDIT.jpg" width="150px" height="150px">
 													</span>
 													<span class="profilTextL">
 														<h3>Göran Lidh</h3>
@@ -95,14 +95,14 @@
 											<div class="profilContainer">			
 												<div class="profilimgcontainerR">
 													<span class="imgR">
-													<img class="shake-slow" src="Images/Profilbild/PelleEDIT.jpg" width="150px" height="150px">
+													<img class="shake-slow rounded" src="Images/Profilbild/PelleEDIT.jpg" width="150px" height="150px">
 													</span>
 													<span class="profilTextR">
 														<h3>Pär Wallin</h3>
 														<span class="profiltextdiv1">
 															<span class="instrument">Gitarr</span> <br />
 																<span class="profiltextdiv">
-																Sologitarrist som även han drar ett solo emellanåt
+																Sologitarrist som även han drar ett solo emellanåt.
 															</span>
 														</span>
 													</span>
@@ -112,7 +112,7 @@
 											<div class="profilContainer">			
 												<div class="profilimgcontainerL">
 													<span class="imgL">
-													<img class="shake-slow" src="Images/Profilbild/KennethEDIT.jpg" width="150px" height="150px">
+													<img class="shake-slow rounded" src="Images/Profilbild/KennethEDIT.jpg" width="150px" height="150px">
 													</span>
 													<span class="profilTextL">
 														<h3>Kenneth "Tjabbe" Carlsson</h3>
@@ -129,7 +129,7 @@
 											<div class="profilContainer">			
 												<div class="profilimgcontainerR">
 													<span class="imgR">
-													<img class="shake-slow" src="Images/Profilbild/RasmusEDIT2.jpg" width="150px" height="150px">
+													<img class="shake-slow rounded" src="Images/Profilbild/RasmusEDIT2.jpg" width="150px" height="150px">
 													</span>
 													<span class="profilTextR">
 														<h3>Rasmus Thilly</h3>
