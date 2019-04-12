@@ -49,21 +49,24 @@
 									?>
 								</p>
 
-									<!-- Början av footer:n -->
-									<div id="footer">
-										&copy; RunezRock
-										<div id="footercontainer">
-											<span id="footertext">
-												Sidan utvecklad av: 
-												<a id="footerDev" href="mailto:144wallfin@gmail.com">
-													AW
-												</a>
-												<a href="https://github.com/Snegil/RunezRock" target="_blank">
-													<img id="github" src="Images/GitHub-Mark-32px.png">
-												</a>
-												
+										<!-- Början av footer:n -->
+										<div id="footer">
+											RunezRock <br />
+											<a class="footer-button" href="medlemmar.php">Medlemmar</a>
+											<a class="footer-button" href="index.php">Hem</a>
+											<a class="footer-button" href="kontakt.php">Kontakt</a>
+											<div id="footercontainer">
+												<span id="footertext">
+													Sidan utvecklad av: 
+													<a id="footerDev" href="mailto:144wallfin@gmail.com">
+														AW
+													</a>
+													<a href="https://github.com/Snegil/RunezRock" target="_blank">
+														<img id="github" src="Images/GitHub-Mark-32px.png">
+													</a>
+													
+											</div>
 										</div>
-									</div>
 
 						</div>
 				</div>
