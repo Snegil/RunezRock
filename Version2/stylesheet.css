@@ -1,0 +1,52 @@
+body {
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23930000' fill-opacity='0.13' fill-rule='evenodd'/%3E%3C/svg%3E");
+	font-family: 'Permanent Marker', cursive;
+	color: #FFF;
+}
+div#topbar {
+	background-color: rgba(51, 51, 51, 0.49);
+	font-size: 25px;
+	height: 50px;
+	padding: 10px;
+}
+div#topbar #logo {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	height: 65px;
+}
+div#topbar #ButtonContainer {
+	margin-top: 10px;
+	margin-left: 125px;
+}
+div#topbar #ButtonContainer a {
+	color: inherit;
+	text-decoration: none;
+	margin-top: -20px;
+	transition-duration: 1s;
+}
+div#topbar #ButtonContainer a:hover {
+	color: #444444;
+}
+div#topbar #SocialMediaContainer {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+div#topbar #SocialMediaContainer a {
+	text-decoration: none;
+}
+div#topbar #SocialMediaContainer img {
+	height: 20px;
+	transition-duration: 0.4s;
+}
+div#topbar #SocialMediaContainer img:hover {
+	filter: brightness(200%);
+	-webkit-filter: brightness(200%);
+}
+iframe {
+	position: absolute; 
+	right: 0;
+	display: none;
+}
