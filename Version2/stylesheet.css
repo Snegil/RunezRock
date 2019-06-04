@@ -1,50 +1,65 @@
+/* Lägger till bakgrunden till <body> taggen och vilket typsnitt den ska använda */
 body {
 	background-color: #000000;
 	background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23930000' fill-opacity='0.13' fill-rule='evenodd'/%3E%3C/svg%3E");
 	font-family: 'Permanent Marker', cursive;
 	color: #FFF;
 }
+/* Topbar håller allt inom ett 50 pixel höjd och väljer hur det ska se ut */
 div#topbar {
 	background-color: rgba(51, 51, 51, 0.49);
 	font-size: 25px;
 	height: 50px;
 	padding: 10px;
 }
+/* #logo fungerar BARA i #topbar för att göra det enklare */
 div#topbar #logo {
 	position: absolute;
 	top: 0;
 	margin: 0;
 	height: 65px;
 }
+/* #ButtonContainer håller fast alla knappar i en rad */
 div#topbar #ButtonContainer {
 	margin-top: 10px;
 	margin-left: 125px;
 }
+/* Bestämmer hur alla <a> taggar ser ut inom #ButtonContainer */
 div#topbar #ButtonContainer a {
 	color: inherit;
 	text-decoration: none;
 	margin-top: -20px;
-	transition-duration: 1s;
+	transition-duration: 0.5s;
 }
+/* Vad som händer när man hovrar över en <a> tagg */
 div#topbar #ButtonContainer a:hover {
-	color: #444444;
+	color: #A0A0A0;
 }
+/* .active ges till den knapp som visar något t.ex hem */
+div#topbar #ButtonContainer .active {
+	color: #8E8E8E;
+}
+/* #SocialMediaContainer håller fast alla sociala medier knappar till samma rad */
 div#topbar #SocialMediaContainer {
 	position: absolute;
 	right: 10px;
 	top: 10px;
 }
+/* Bestämmer att <a> taggar i #SocialMediaContainer inte har ett understreck */
 div#topbar #SocialMediaContainer a {
 	text-decoration: none;
 }
+/* Bestämmer hur alla <img> taggar ser ut i #SocialMediaContainer*/
 div#topbar #SocialMediaContainer img {
 	height: 20px;
 	transition-duration: 0.4s;
 }
+/* Vad som händer när man hovrar över en <img> tagg */
 div#topbar #SocialMediaContainer img:hover {
 	filter: brightness(200%);
 	-webkit-filter: brightness(200%);
 }
+/* Iframe som används av spotify spelaren */
 iframe {
 	position: absolute; 
 	right: 0;
