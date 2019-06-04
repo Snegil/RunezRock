@@ -4,16 +4,16 @@
 		<meta name="author" content="Snegil">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8" lang="sv">
-		
+
 		<title>
 			Runez Rock
 		</title>
-		
+
 		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
-		
+
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 		<link rel="stylesheet" type="text/css" href="mobil.css">
 
@@ -47,9 +47,9 @@
 				<a onclick="FastToggle('SpotifyIframe')">
 				<img class="BarsWNoteKnapp" src="Images/BarsWNote.png">
 				</a>
-			</div>  
+			</div>
 		</div>
-		
+
 		<iframe id="SpotifyIframe" src="https://open.spotify.com/embed/album/1lvwb13OwueK1e4lQ1UyJx" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 	</body>
 </html>

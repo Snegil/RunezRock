@@ -48,11 +48,13 @@ div#topbar #SocialMediaContainer {
 /* Bestämmer att <a> taggar i #SocialMediaContainer inte har ett understreck */
 div#topbar #SocialMediaContainer a {
 	text-decoration: none;
+	cursor: pointer;
 }
 /* Bestämmer hur alla <img> taggar ser ut i #SocialMediaContainer*/
 div#topbar #SocialMediaContainer img {
 	height: 20px;
 	transition-duration: 0.4s;
+	cursor: pointer;
 }
 /* Vad som händer när man hovrar över en <img> tagg */
 div#topbar #SocialMediaContainer img:hover {
@@ -61,7 +63,7 @@ div#topbar #SocialMediaContainer img:hover {
 }
 /* Iframe som används av spotify spelaren */
 iframe {
-	position: absolute; 
+	position: absolute;
 	right: 0;
 	display: none;
 }
