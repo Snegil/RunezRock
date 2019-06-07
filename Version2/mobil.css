@@ -1,12 +1,13 @@
 /* Anpassning för enheter med mindre än 600px bredd */
 @media screen and (max-width: 600px) {
-	#topbar {
-		height: 300px;
+	div#topbar {
+		height: 50px;
+		font-size: 23px;
 	}
-	#topbar #logo {
-		height: 250px;
+	div#topbar #logo {
+		height: 70px;
 	}
-	#topbar #ButtonContainer {
+	div#topbar #ButtonContainer {
 		position: absolute;
 		background-color: rgba(51, 51, 51, 0.49);
 		top: 60px;

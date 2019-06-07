@@ -17,7 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 		<link rel="stylesheet" type="text/css" href="mobil.css">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="jquery-3.4.1.js"></script>
 		<script src="javascript.js"></script>
 	</head>
 	<body>
