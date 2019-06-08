@@ -35,21 +35,24 @@
 				</a>
 			</div>
 			<div id="SocialMediaContainer">
-				<a target="_blank" href="#">
-					<img alt="Instagram" src="Images/IG_logo_grey.png">
+				<a target="_blank" href="https://www.instagram.com/runezrock/">
+					<img alt="Instagram" src="Images/Icons/IG_logo_grey.png">
 				</a>
 				<a target="_blank" href="https://www.facebook.com/Runez-Rock-109810822368941/">
-					<img alt="Facebook" src="Images/f_logo_RGB-Grey_58.png">
+					<img alt="Facebook" src="Images/Icons/f_logo_RGB-Grey_58.png">
 				</a>
 				<a target="_blank" href="https://open.spotify.com/artist/7nSfqqSbiKs5r2muYY2upm">
-					<img alt="Spotify" src="Images/Spotify_Icon_RGB_Black.png">
+					<img alt="Spotify" src="Images/Icons/Spotify_Icon_RGB_Black.png">
 				</a>
 				<a onclick="FastToggle('SpotifyIframe')">
-				<img class="BarsWNoteKnapp" src="Images/BarsWNote.png">
+				<img class="BarsWNoteKnapp" src="Images/Icons/BarsWNote.png">
 				</a>
 			</div>
 		</div>
 
 		<iframe id="SpotifyIframe" src="https://open.spotify.com/embed/album/1lvwb13OwueK1e4lQ1UyJx" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+		
+
 	</body>
 </html>
