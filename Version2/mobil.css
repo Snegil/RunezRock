@@ -1,3 +1,10 @@
+/* Anpassning för enheter med mindre än 800px bredd */
+@media screen and (max-width: 800px) {
+	#CenterContainer #ContentContainer {
+		display: inline-block;
+		width: 75%;
+	}
+}
 /* Anpassning för enheter med mindre än 600px bredd */
 @media screen and (max-width: 600px) {
 	div#topbar {
@@ -18,18 +25,10 @@
 	.BarsWNoteKnapp {
 		display: none;
 	}
-	div#ContentContainer #AboutImage img {
-		margin-top: 40px;
-		height: 200px;
-		border-radius: 5px 5px 1px 1px;
-	}
-	div#ContentContainer #AboutText {
+	#CenterContainer #ContentContainer {
 		display: inline-block;
-		padding: 5px;
-		font-size: 20px;
-		border-radius: 0px 0px 5px 5px;
-		width: 90%;
-		animation: 1s ease-out 0s 1 AboutTextFallFadeTop;
-	} 
-
+		width: 98%;
+		margin: 50px 0px;
+		padding: 15px 0px;
+	}
 }

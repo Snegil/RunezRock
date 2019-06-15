@@ -24,10 +24,10 @@
 		<div id="topbar">
 			<img id="logo" src="Images/runezrocklogoedit.png">
 			<div id="ButtonContainer">
-				<a class="active" href="index.php">
+				<a href="index.php">
 					Hem
 				</a>
-				<a href="medlemmar.php">
+				<a class="active" href="medlemmar.php">
 					Medlemmar
 				</a>
 				<a href="#3">
@@ -52,7 +52,7 @@
 
 		<iframe id="SpotifyIframe" src="https://open.spotify.com/embed/album/1lvwb13OwueK1e4lQ1UyJx" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-    
+
 
 	</body>
 </html>

@@ -9,7 +9,7 @@
 			Runez Rock
 		</title>
 
-		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+		<link rel='icon' href='favicon2.ico' type='image/x-icon'/ >
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
@@ -52,18 +52,17 @@
 
 		<iframe id="SpotifyIframe" src="https://open.spotify.com/embed/album/1lvwb13OwueK1e4lQ1UyJx" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-		<div id="ContentContainer">
-			<div id="AboutImage">
-				<img src="Images/runezrockband2Opacity0Vignette.png">
-			</div>
-			<div id="AboutText">
-				<!-- Läser in filen about.txt och läser upp den -->
-				<?php
-					$myfilename = "about.txt";
-						if(file_exists($myfilename)){
-							echo file_get_contents($myfilename);
-						}
-				?>
+		<div id="CenterContainer">
+			<div id="ContentContainer">
+				<img id="Image" src="Images/runezrockband2Opacity0Vignette.png">
+				<div id="Text">
+					<?php
+					  $myfilename = "about.txt";
+					    if(file_exists($myfilename)){
+					      echo file_get_contents($myfilename);
+					    }
+					?>
+				</div>
 			</div>
 		</div>
 

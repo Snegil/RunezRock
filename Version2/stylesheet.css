@@ -38,6 +38,9 @@ div#topbar #ButtonContainer a:hover {
 /* .active ges till den knapp som visar något t.ex hem */
 div#topbar #ButtonContainer .active {
 	color: #8E8E8E;
+	animation-name: ActiveTextFX;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
 }
 /* #SocialMediaContainer håller fast alla sociala medier knappar till samma rad */
 div#topbar #SocialMediaContainer {
@@ -69,31 +72,29 @@ iframe {
 }
 
 /* Allt här nedanför är till HEM */
-/* Gör så att allt på sidan är centrerad */
-div#ContentContainer {
-	width: 100%;
-	padding: 4px 0px;
+
+#CenterContainer {
 	text-align: center;
+	padding: 2px 0px;
 }
-/* HEM Sidan */
-/* Styr bilden inuti #AboutImage */
-div#ContentContainer #AboutImage {
+#CenterContainer #ContentContainer {
 	display: inline-block;
-	background-color: rgba(51, 51, 51, 0.49);
-	height: 200px;
-	border-radius: 5px 5px 0px 0px;
-	animation: 1s ease-out 0s 1 FadeIn;
+	width: 35%;
+	padding: 5px 0px;
 }
-/* Texten som handlar om Runez */
-div#ContentContainer #AboutText {
-	display: inline-block;
-	background-color: rgba(51, 51, 51, 0.49);
-	padding: 2px;
-	margin-top: -3px;
+#CenterContainer #ContentContainer #Image {
+	width: 100%;
+	animation-name: FadeIn;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+}
+#CenterContainer #ContentContainer #Text {
+	width: 100%;
 	font-size: 20px;
-	width: 600px;
-	border-radius: 2px 2px 5px 5px;
-	animation: 1s ease-out 0s 1 AboutTextFallFadeTop;
+	text-align: center;
+	animation-name: TextFallFade;
+	animation-duration: 2s;
+	animation-timing-function: ease;
 }
 /* Slut på HEM Sidan */
 
@@ -104,22 +105,11 @@ div#ContentContainer #AboutText {
 
 /* Animation */
 /* För #AboutText i div#ContentContainer */
-@keyframes AboutTextFallFadeTop {
+@keyframes TextFallFade {
   0% {
   	transform: translateY(10px);
   	color: black;
   	opacity: 0;
-  }
-  20% {
-  	transform: translateY(8px);
-  }
-  50% {
-  	transform: translateY(5px);
-  	color: gray;
-  	opacity: 0.5;
-  }
-  80% {
-  	transform: translateY(2px);
   }
   100% {
   	transform: translateY(0px);
@@ -134,5 +124,16 @@ div#ContentContainer #AboutText {
 	}
 	100% {
 		opacity: 1;
+	}
+}
+@keyframes ActiveTextFX {
+	0% {
+ 	color: #A0A0A0;
+	}
+	50% {
+		color: #C9C9C9;
+	}
+	100% {
+		color: #8E8E8E;
 	}
 }
