@@ -1,0 +1,8 @@
+<?php
+  $myfilename = "about.txt";
+    if(file_exists($myfilename)){
+      echo file_get_contents($myfilename);
+    }
+?>
+
+	<img src="Images/runezrockband2Opacity0Vignette.png">

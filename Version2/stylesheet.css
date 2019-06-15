@@ -76,12 +76,11 @@ div#ContentContainer {
 	text-align: center;
 }
 /* HEM Sidan */
-div#ContentContainer #AboutImage {}
 /* Styr bilden inuti #AboutImage */
-div#ContentContainer #AboutImage img {
+div#ContentContainer #AboutImage {
 	display: inline-block;
 	background-color: rgba(51, 51, 51, 0.49);
-	height: 400px;
+	height: 200px;
 	border-radius: 5px 5px 0px 0px;
 	animation: 1s ease-out 0s 1 FadeIn;
 }
