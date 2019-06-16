@@ -9,7 +9,7 @@
 			Runez Rock
 		</title>
 
-		<link rel='icon' href='favicon2.ico' type='image/x-icon'/ >
+		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="normalize.css">

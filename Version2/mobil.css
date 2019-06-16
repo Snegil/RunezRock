@@ -1,3 +1,10 @@
+/* Anpassning för enheter med mindre än 1024px bredd */
+@media screen and (max-width: 1024px) {
+	#CenterContainer #ContentContainer {
+		display: inline-block;
+		width: 75%;
+	}
+}
 /* Anpassning för enheter med mindre än 800px bredd */
 @media screen and (max-width: 800px) {
 	#CenterContainer #ContentContainer {
@@ -23,6 +30,9 @@
 		text-align: center;
 	}
 	.BarsWNoteKnapp {
+		display: none;
+	}
+	iframe {
 		display: none;
 	}
 	#CenterContainer #ContentContainer {

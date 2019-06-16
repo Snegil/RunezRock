@@ -69,25 +69,30 @@ iframe {
 	position: absolute;
 	right: 0;
 	display: none;
+	animation-name: FadeIn;
+	animation-duration: 0.5s;
 }
 
 /* Allt här nedanför är till HEM */
-
+/* Håller allt i mitten på sidan med lite extra padding top & bot */
 #CenterContainer {
 	text-align: center;
 	padding: 2px 0px;
 }
+/* Där bilden och texten är inuti fungerar bara inom #CenterContainer */
 #CenterContainer #ContentContainer {
 	display: inline-block;
 	width: 35%;
 	padding: 5px 0px;
 }
+/* Styr hur bilden ser ut inuti #ContentContainer */
 #CenterContainer #ContentContainer #Image {
 	width: 100%;
 	animation-name: FadeIn;
 	animation-duration: 2s;
 	animation-timing-function: ease-in;
 }
+/* Styr hur texten ser ut inuti #ContentContainer */
 #CenterContainer #ContentContainer #Text {
 	width: 100%;
 	font-size: 20px;
@@ -99,7 +104,15 @@ iframe {
 /* Slut på HEM Sidan */
 
 /* Medlemmar Sidan */
-
+.MedContainer {
+	
+}
+.Left {
+	text-align: left;
+}
+.Right {
+	text-align: right;
+}
 /* Slut på Medlemmar Sidan */
 
 
@@ -120,12 +133,13 @@ iframe {
 /* För #AboutImage i div#ContentContainer */
 @keyframes FadeIn {
 	0% {
-		opacity: 0;
+		opacity: 0.5;
 	}
 	100% {
 		opacity: 1;
 	}
 }
+/* Hur texten ser ut när man går in på sidan */
 @keyframes ActiveTextFX {
 	0% {
  	color: #A0A0A0;
