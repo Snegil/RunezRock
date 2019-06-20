@@ -6,7 +6,7 @@
 		<meta charset="utf-8" lang="sv">
 
 		<title>
-			Runez Rock &ndash; Medlemmar
+			RunezRock &ndash; Medlemmar
 		</title>
 
 		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
@@ -30,7 +30,7 @@
 				<a class="active" href="medlemmar.php">
 					Medlemmar
 				</a>
-				<a href="#3">
+				<a href="kontakt.php">
 					Kontakt
 				</a>
 			</div>
@@ -54,7 +54,7 @@
 
 			<div class="MedContainer">
 
-				<div class="Medlem Left">
+				<div class="Medlem Left" id="m1">
 					<img src="Images/Profilbild/PerTCrop.jpg" />
 					<div class="MedlemText">
 						<span class="MedNamn">Per Thilly</span>
@@ -68,7 +68,7 @@
 
 				<br />
 
-				<div class="Medlem Right">
+				<div class="Medlem Right" id="m2">
 					<div class="MedlemText">
 						<span class="MedNamn">Sonny Olausson</span>
 						<span class="MedInstrument">Gitarr</span>
@@ -81,7 +81,7 @@
 
 				<br />
 
-				<div class="Medlem Left">
+				<div class="Medlem Left" id="m3">
 					<img src="Images/Profilbild/GoranCrop.jpg" />
 					<div class="MedlemText">
 						<span class="MedNamn">Göran Lidh</span>
@@ -94,7 +94,7 @@
 
 				<br />
 
-				<div class="Medlem Right">
+				<div class="Medlem Right" id="m4">
 					<div class="MedlemText">
 						<span class="MedNamn">Pär Wallin</span>
 						<span class="MedInstrument">Gitarr</span>
@@ -107,7 +107,7 @@
 
 				<br />
 
-				<div class="Medlem Left">
+				<div class="Medlem Left" id="m5">
 					<img src="Images/Profilbild/KennethCrop.jpg" />
 					<div class="MedlemText">
 						<span class="MedNamn">Kenneth "Tjabbe" Carlsson</span>
@@ -120,7 +120,7 @@
 
 				<br />
 
-				<div class="Medlem Right">
+				<div class="Medlem Right" id="m6">
 					<div class="MedlemText">
 						<span class="MedNamn">Rasmus Thilly</span>
 						<span class="MedInstrument">Bas</span>

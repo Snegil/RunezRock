@@ -58,4 +58,7 @@
 		transform: translateY(0px);
 		width: 65%;
 	}
+	#KontaktContainer {
+		margin-top: 40px;
+	}
 }

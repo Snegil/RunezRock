@@ -6,7 +6,7 @@
 		<meta charset="utf-8" lang="sv">
 
 		<title>
-			RunezRock
+			RunezRock &ndash; Kontakt
 		</title>
 
 		<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
@@ -24,13 +24,13 @@
 		<div id="topbar">
 			<img id="logo" src="Images/runezrocklogoedit.png">
 			<div id="ButtonContainer">
-				<a class="active" href="index.php">
+				<a href="index.php">
 					Hem
 				</a>
 				<a href="medlemmar.php">
 					Medlemmar
 				</a>
-				<a href="kontakt.php">
+				<a class="active" href="kontakt.php">
 					Kontakt
 				</a>
 			</div>
@@ -53,17 +53,24 @@
 		<iframe id="SpotifyIframe" src="https://open.spotify.com/embed/album/1lvwb13OwueK1e4lQ1UyJx" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 		<div id="CenterContainer">
-			<div id="ContentContainer">
-				<img id="Image" src="Images/runezrockband2Opacity0Vignette.png">
-				<div id="Text">
-					<?php
-					  $myfilename = "about.txt";
-					    if(file_exists($myfilename)){
-					      echo file_get_contents($myfilename);
-					    }
-					?>
-				</div>
-			</div>
+      <div id="KontaktContainer">
+        <div class="Inline">
+  			<div id="KontaktTitle">
+          För bokning:
+        </div>
+            <div id="KontaktInformation">
+              Telefon: <br />
+              Göran Lidh: 070 653 16 56 <br />
+              <br />
+              <span class="Postadress">
+              Postadress: <br />
+              </span>
+              RunezRock <br />
+              Kapellg. 3 <br />
+              33530 GNOSJÖ
+            </div>
+          </div>
+      </div>
 		</div>
 
 	</body>
