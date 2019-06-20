@@ -41,4 +41,21 @@
 		margin: 50px 0px;
 		padding: 15px 0px;
 	}
+	.MedContainer {
+		margin-top: 30px;
+		padding: 5px;
+		background-color: rgba(51, 51, 51, 0.49);
+		text-align: center;
+	}
+	.Medlem {
+		display: inline-block;
+		height: 100px;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.MedlemText {
+		display: inline-block;
+		transform: translateY(0px);
+		width: 65%;
+	}
 }

@@ -52,7 +52,86 @@
 
 		<iframe id="SpotifyIframe" src="https://open.spotify.com/embed/album/1lvwb13OwueK1e4lQ1UyJx" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-		<div class="Container Left"
+			<div class="MedContainer">
+
+				<div class="Medlem Left">
+					<img src="Images/Profilbild/PerTCrop.jpg" />
+					<div class="MedlemText">
+						<span class="MedNamn">Per Thilly</span>
+						<span class="MedInstrument">Sång</span>
+						<span class="MedOm">
+							Sångaren med det breda registret, <br />
+							från låga C till skithöga A.
+						 </span>
+					</div>
+				</div>
+
+				<br />
+
+				<div class="Medlem Right">
+					<div class="MedlemText">
+						<span class="MedNamn">Sonny Olausson</span>
+						<span class="MedInstrument">Gitarr</span>
+						<span class="MedOm">
+							Den bäste kompgittaristen som emellanåt även drar iväg ett solo.
+						 </span>
+					</div>
+					<img src="Images/Profilbild/SonnyCrop.jpg" />
+				</div>
+
+				<br />
+
+				<div class="Medlem Left">
+					<img src="Images/Profilbild/GoranCrop.jpg" />
+					<div class="MedlemText">
+						<span class="MedNamn">Göran Lidh</span>
+						<span class="MedInstrument">Trummor</span>
+						<span class="MedOm">
+							Otroligt taktfast trummis med full koll på paradiddlarna.
+						 </span>
+					</div>
+				</div>
+
+				<br />
+
+				<div class="Medlem Right">
+					<div class="MedlemText">
+						<span class="MedNamn">Pär Wallin</span>
+						<span class="MedInstrument">Gitarr</span>
+						<span class="MedOm">
+							Sologitarrist som även han drar ett solo emellanåt.
+						 </span>
+					</div>
+					<img src="Images/Profilbild/PelleCrop.jpg" />
+				</div>
+
+				<br />
+
+				<div class="Medlem Left">
+					<img src="Images/Profilbild/KennethCrop.jpg" />
+					<div class="MedlemText">
+						<span class="MedNamn">Kenneth "Tjabbe" Carlsson</span>
+						<span class="MedInstrument">Keyboards</span>
+						<span class="MedOm">
+							Eminent pianist med en otrolig kunskap om ackord.
+						 </span>
+					</div>
+				</div>
+
+				<br />
+
+				<div class="Medlem Right">
+					<div class="MedlemText">
+						<span class="MedNamn">Rasmus Thilly</span>
+						<span class="MedInstrument">Bas</span>
+						<span class="MedOm">
+							Den bäste basisten som har den bäste sångaren till far.
+						 </span>
+					</div>
+					<img src="Images/Profilbild/RasmusCrop.jpg" />
+				</div>
+
+			</div>
 
 	</body>
 </html>
