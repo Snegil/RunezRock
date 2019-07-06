@@ -66,5 +66,11 @@
 			</div>
 		</div>
 
+		<div id="Footer">
+			<div id="FooterText">
+				Sidan utvecklad och designad av <a href="mailto:144wallfin@gmail.com">AW</a>
+			</div>
+		</div>
+
 	</body>
 </html>
