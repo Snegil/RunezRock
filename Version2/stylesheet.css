@@ -18,6 +18,11 @@ div#topbar #logo {
 	top: 0;
 	margin: 0;
 	height: 65px;
+	transition-duration: 1s;
+}
+div#topbar #logo:hover {
+	filter: invert(50%);
+	-webkit-filter: invert(50%);
 }
 /* #ButtonContainer håller fast alla knappar i en rad */
 div#topbar #ButtonContainer {

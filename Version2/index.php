@@ -22,7 +22,9 @@
 	</head>
 	<body>
 		<div id="topbar">
+			<a href="index.php">
 			<img id="logo" src="Images/runezrocklogoedit.png">
+			</a>
 			<div id="ButtonContainer">
 				<a class="active" href="index.php">
 					Hem
@@ -68,7 +70,7 @@
 
 		<div id="Footer">
 			<div id="FooterText">
-				Sidan utvecklad och designad av <a href="mailto:144wallfin@gmail.com">AW</a>
+				Sidan utvecklad och designad av <a href="mailto:144wallfin@gmail.com">Alfons Wallin</a>
 			</div>
 		</div>
 

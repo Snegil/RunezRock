@@ -4,6 +4,9 @@
 		display: inline-block;
 		width: 75%;
 	}
+	#Medlem {
+		width: 60%;
+	}
 }
 /* Anpassning för enheter med mindre än 800px bredd */
 @media screen and (max-width: 800px) {
@@ -30,10 +33,11 @@
 		text-align: center;
 	}
 	.BarsWNoteKnapp {
-		display: none;
+
 	}
 	iframe {
 		display: none;
+		z-index: 100;
 	}
 	#CenterContainer #ContentContainer {
 		display: inline-block;
@@ -60,5 +64,8 @@
 	}
 	#KontaktContainer {
 		margin-top: 40px;
+	}
+	#FooterText a {
+		display: block;
 	}
 }
