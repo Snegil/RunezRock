@@ -134,7 +134,7 @@
 				</div>
 
 			</div>
-
+		<br />
 			<div id="Footer">
 				<div id="FooterText">
 					Sidan utvecklad och designad av <a href="mailto:144wallfin@gmail.com">Alfons Wallin</a>
