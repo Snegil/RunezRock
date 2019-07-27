@@ -70,6 +70,9 @@
               RunezRock <br />
               Kapellg. 3 <br />
               33530 GNOSJÖ
+							<br />
+							<br />
+							info@runezrock.com
             </div>
           </div>
       </div>
@@ -77,7 +80,8 @@
 		<br />
 		<div id="Footer">
 			<div id="FooterText">
-				Sidan utvecklad och designad av <a href="mailto:144wallfin@gmail.com">Alfons Wallin</a>
+				Sidan utvecklad och designad av <a href="mailto:144wallfin@gmail.com">Alfons Wallin</a><br />
+				144wallfin@gmail.com
 			</div>
 		</div>
 
