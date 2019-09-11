@@ -60,14 +60,14 @@ div#topbar #SocialMediaContainer a {
 }
 /* Bestämmer hur alla <img> taggar ser ut i #SocialMediaContainer*/
 div#topbar #SocialMediaContainer img {
-	height: 20px;
+	height: 25px;
 	transition-duration: 0.4s;
 	cursor: pointer;
 }
 /* Vad som händer när man hovrar över en <img> tagg */
 div#topbar #SocialMediaContainer img:hover {
-	filter: brightness(200%);
-	-webkit-filter: brightness(200%);
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
 }
 /* Iframe som används av spotify spelaren */
 iframe {
