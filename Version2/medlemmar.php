@@ -17,7 +17,6 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 		<link rel="stylesheet" type="text/css" href="mobil.css">
 
-		<script src="jquery-3.4.1.js"></script>
 		<script src="javascript.js"></script>
 	</head>
 	<body>
@@ -57,20 +56,7 @@
 			<div class="MedContainer">
 
 				<div class="Medlem Left" id="m1">
-					<img src="Images/Profilbild/PerTCrop.jpg" />
-					<div class="MedlemText">
-						<span class="MedNamn">Per Thilly</span>
-						<span class="MedInstrument">Sång</span>
-						<span class="MedOm">
-							Sångaren med det breda registret, <br />
-							från låga C till skithöga A.
-						 </span>
-					</div>
-				</div>
-
-				<br />
-
-				<div class="Medlem Right" id="m2">
+					<img src="Images/Profilbild/SonnyCrop.jpg" />
 					<div class="MedlemText">
 						<span class="MedNamn">Sonny Olausson</span>
 						<span class="MedInstrument">Gitarr</span>
@@ -78,9 +64,21 @@
 							Den bäste kompgittaristen som emellanåt även drar iväg ett solo.
 						 </span>
 					</div>
-					<img src="Images/Profilbild/SonnyCrop.jpg" />
 				</div>
 
+				<br />
+				
+				<div class="Medlem Right" id="m2">
+					<div class="MedlemText">
+						<span class="MedNamn">Per Thilly</span>
+						<span class="MedInstrument">Gitarr</span>
+						<span class="MedOm">
+							Sångaren med det breda registret, <br />
+							från låga C till skithöga A.
+						 </span>
+					</div>
+					<img src="Images/Profilbild/PerTCrop.jpg" />
+				</div>
 				<br />
 
 				<div class="Medlem Left" id="m3">
